@@ -112,3 +112,45 @@ img {
 .asset p {
     font-size: 1.5rem;
 }
+
+.carousel {
+    background-color: #F3F5F9;
+    padding-top: 5rem;
+}
+.carousel h2 {
+    color: #031B4E;
+}
+.carousel p {
+    font-size: 2rem;
+    color: #4A5C81;
+}
+
+.slide-wrapper {
+    margin-top: 4rem;
+}
+.slide img{
+    height: 400px;
+}
+.chevron {
+    font-size: 4rem;
+    line-height: 400px;
+    text-align: center;
+}
+.carousel h6 {
+    color: #031B4E;
+}
+
+.loading {
+    width: 100%;
+    text-align: center;
+}
+.circle {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid #006aff;
+}
+.full {
+    background-color: #006aff;
+}

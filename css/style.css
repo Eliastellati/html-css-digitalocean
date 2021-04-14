@@ -3,6 +3,7 @@
     min-height: 30px;
 }
 
+
 nav {
     height: 80px;
     line-height: 80px;
@@ -23,6 +24,12 @@ nav ul a {
 img {
     width: 100%;
 }
+.color-grey {
+    color: grey;
+}
+.flex {
+    display: flex;
+}
 
 
 .jumbotron {
@@ -30,6 +37,7 @@ img {
     background-image: url('../img/bg-banner-home.jpg');
     background-size: contain;
     color: white;
+    margin-bottom: 0;
 }
 
 .jumbotron .card {
@@ -56,8 +64,51 @@ img {
     width: 80%;
 }
 
+.customers {
+    background-color: #F3F5F9;
+    padding: 2rem;
+}
+.sponsors {
+    align-items: baseline;
+    padding: 1rem;
+}
 .sponsor {
     height: 80px;
     padding: 5px;
-    background-color: brown;
+}
+
+.deploy {
+    padding: 2rem;
+}
+.deploy h2 {
+    color: #031B4E;
+}
+.deploy p {
+    font-size: 2rem;
+    color: #4A5C81;
+}
+.deploy ul {
+    border-left: 2px solid lightgrey;
+    margin-top: 3rem;
+}
+.deploy li {
+    padding: 1rem;
+    color: #4A5C81;
+}
+
+.assets {
+    text-align: center;
+}
+.asset {
+    display: inline-block;
+    width: 40%;
+    margin-top: 3rem;
+    padding: 2rem;
+    text-align:left
+}
+.asset img {
+    width: 20%;
+}
+.asset p {
+    font-size: 1.5rem;
 }

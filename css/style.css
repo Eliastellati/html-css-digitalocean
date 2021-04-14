@@ -27,8 +27,8 @@ img {
 .color-grey {
     color: grey;
 }
-.flex {
-    display: flex;
+h4 {
+    color: #031B4E;
 }
 
 
@@ -80,10 +80,10 @@ img {
 .deploy {
     padding: 2rem;
 }
-.deploy h2 {
+.deploy h2, .carousel h2, .features h2 {
     color: #031B4E;
 }
-.deploy p {
+.deploy p, .carousel p {
     font-size: 2rem;
     color: #4A5C81;
 }
@@ -115,14 +115,7 @@ img {
 
 .carousel {
     background-color: #F3F5F9;
-    padding-top: 5rem;
-}
-.carousel h2 {
-    color: #031B4E;
-}
-.carousel p {
-    font-size: 2rem;
-    color: #4A5C81;
+    padding: 4rem 0;
 }
 
 .slide-wrapper {
@@ -153,4 +146,35 @@ img {
 }
 .full {
     background-color: #006aff;
+}
+
+.features {
+    padding: 4rem 0;
+}
+.feature {
+    padding-top: 3rem;
+}
+.feature img {
+    width: 10%;
+}
+.feature p {
+    color: #4A5C81;
+}
+
+
+.service {
+    background: linear-gradient(90deg, rgba(8,1,133,1) 4%, rgba(18,67,122,1) 35%, rgba(20,20,153,1) 99%);
+
+}
+.service h2 {
+    color: white;
+}
+table {
+    width: 40%;
+}
+.table {
+    color: white;
+}
+.table tr {
+    border-color: white;
 }

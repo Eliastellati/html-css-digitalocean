@@ -163,8 +163,8 @@ h4 {
 
 
 .service {
+    padding: 4rem 0;
     background: linear-gradient(90deg, rgba(8,1,133,1) 4%, rgba(18,67,122,1) 35%, rgba(20,20,153,1) 99%);
-
 }
 .service h2 {
     color: white;
@@ -177,4 +177,61 @@ table {
 }
 .table tr {
     border-color: white;
+}
+.dev-carousel {
+    background-color: #F3F5FA;
+    padding: 4rem 0;
+}
+.quote {
+    background-color: white;
+    padding: 
+}
+.quote img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+.chevron-quote {
+    height: 270px;
+    line-height: 270px;
+    font-size: 5rem;
+    text-align: center;
+}
+.dev-carousel .loading {
+    padding-top: 2rem;
+}
+
+.getstarted {
+    padding: 4rem 0;
+    background-color: #0236AF;
+    color: white;
+}
+
+footer {
+    background-color: #031D4F;
+    color: lightgrey;
+    padding: 4rem 0;
+}
+footer h4 {
+    color: white;
+}
+footer img {
+    width: 10%;
+    padding: 1rem 0;
+}
+footer .socials i {
+    font-size: 2rem;
+}
+
+.shark {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+.shark img {
+    width: 5%;
+}
+.shark button {
+    
 }
